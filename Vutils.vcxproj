@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="MDd|Win32">
+      <Configuration>MDd</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MTd|Win32">
+      <Configuration>MTd</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MTd|x64">
+      <Configuration>MTd</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MT|Win32">
+      <Configuration>MT</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MT|x64">
+      <Configuration>MT</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MD|Win32">
+      <Configuration>MD</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MDd|x64">
+      <Configuration>MDd</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MD|x64">
+      <Configuration>MD</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6322FF62-00A6-4386-B7EC-6802BB5A22E0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Vutils</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MDd|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MTd|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MD|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MT|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MDd|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MTd|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MD|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MT|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='MDd|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='MTd|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='MD|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='MT|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='MDd|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='MTd|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='MD|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='MT|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MDd|Win32'">
+    <OutDir>$(ProjectDir)lib\$(PlatformToolset)\$(Platform)\</OutDir>
+    <TargetName>$(ProjectName)-$(Configuration)</TargetName>
+    <IntDir>obj\$(PlatformToolset)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MTd|Win32'">
+    <OutDir>$(ProjectDir)lib\$(PlatformToolset)\$(Platform)\</OutDir>
+    <TargetName>$(ProjectName)-$(Configuration)</TargetName>
+    <IntDir>obj\$(PlatformToolset)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MD|Win32'">
+    <OutDir>$(ProjectDir)lib\$(PlatformToolset)\$(Platform)\</OutDir>
+    <TargetName>$(ProjectName)-$(Configuration)</TargetName>
+    <IntDir>obj\$(PlatformToolset)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MT|Win32'">
+    <OutDir>$(ProjectDir)lib\$(PlatformToolset)\$(Platform)\</OutDir>
+    <TargetName>$(ProjectName)-$(Configuration)</TargetName>
+    <IntDir>obj\$(PlatformToolset)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MDd|x64'">
+    <OutDir>$(ProjectDir)lib\$(PlatformToolset)\$(Platform)\</OutDir>
+    <TargetName>$(ProjectName)-$(Configuration)</TargetName>
+    <IntDir>obj\$(PlatformToolset)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MTd|x64'">
+    <OutDir>$(ProjectDir)lib\$(PlatformToolset)\$(Platform)\</OutDir>
+    <TargetName>$(ProjectName)-$(Configuration)</TargetName>
+    <IntDir>obj\$(PlatformToolset)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MD|x64'">
+    <OutDir>$(ProjectDir)lib\$(PlatformToolset)\$(Platform)\</OutDir>
+    <TargetName>$(ProjectName)-$(Configuration)</TargetName>
+    <IntDir>obj\$(PlatformToolset)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MT|x64'">
+    <OutDir>$(ProjectDir)lib\$(PlatformToolset)\$(Platform)\</OutDir>
+    <TargetName>$(ProjectName)-$(Configuration)</TargetName>
+    <IntDir>obj\$(PlatformToolset)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MDd|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_DLL;%(PreprocessorDefinitions);Vutils_EXPORTS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(ProjectDir)lib\$(PlatformToolset)\$(Platform)\$(ProjectName)-$(Configuration).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MTd|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions);Vutils_EXPORTS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(ProjectDir)lib\$(PlatformToolset)\$(Platform)\$(ProjectName)-$(Configuration).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MDd|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;_DLL;%(PreprocessorDefinitions);Vutils_EXPORTS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(ProjectDir)lib\$(PlatformToolset)\$(Platform)\$(ProjectName)-$(Configuration).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MTd|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions);Vutils_EXPORTS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(ProjectDir)lib\$(PlatformToolset)\$(Platform)\$(ProjectName)-$(Configuration).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MD|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_DLL;%(PreprocessorDefinitions);Vutils_EXPORTS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(ProjectDir)lib\$(PlatformToolset)\$(Platform)\$(ProjectName)-$(Configuration).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MT|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions);Vutils_EXPORTS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(ProjectDir)lib\$(PlatformToolset)\$(Platform)\$(ProjectName)-$(Configuration).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MD|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;_DLL;%(PreprocessorDefinitions);Vutils_EXPORTS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(ProjectDir)lib\$(PlatformToolset)\$(Platform)\$(ProjectName)-$(Configuration).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MT|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions);Vutils_EXPORTS</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(ProjectDir)lib\$(PlatformToolset)\$(Platform)\$(ProjectName)-$(Configuration).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="3rdparty\HDE\include\hde32.h" />
+    <ClInclude Include="3rdparty\HDE\include\hde64.h" />
+    <ClInclude Include="3rdparty\HDE\include\table32.h" />
+    <ClInclude Include="3rdparty\HDE\include\table64.h" />
+    <ClInclude Include="3rdparty\MH\include\buffer.h" />
+    <ClInclude Include="3rdparty\Others\base64.h" />
+    <ClInclude Include="3rdparty\Others\crc_list.h" />
+    <ClInclude Include="3rdparty\Others\crc_t.h" />
+    <ClInclude Include="3rdparty\Others\md5.h" />
+    <ClInclude Include="3rdparty\Others\sha.h" />
+    <ClInclude Include="3rdparty\Others\sha3_impl.h" />
+    <ClInclude Include="3rdparty\TE\include\text_encoding_detect.h" />
+    <ClInclude Include="3rdparty\TP11\include\threadpool11\Pool.h" />
+    <ClInclude Include="3rdparty\TP11\include\threadpool11\threadpool11.h" />
+    <ClInclude Include="3rdparty\TP11\include\threadpool11\Worker.h" />
+    <ClInclude Include="3rdparty\UND\include\undname.h" />
+    <ClInclude Include="3rdparty\WHW\WinHttpWrapper.h" />
+    <ClInclude Include="include\3rdparty\BI\BigInt.hpp" />
+    <ClInclude Include="include\3rdparty\CH\cpp-hooking\common.h" />
+    <ClInclude Include="include\3rdparty\CH\cpp-hooking\hooking.h" />
+    <ClInclude Include="include\3rdparty\CH\cpp-hooking\iat_hooking.h" />
+    <ClInclude Include="include\3rdparty\CH\cpp-hooking\inl_hooking.h" />
+    <ClInclude Include="include\3rdparty\CH\cpp-hooking\invokable.h" />
+    <ClInclude Include="include\3rdparty\EP\include\easyprint.hpp" />
+    <ClInclude Include="include\3rdparty\NO\include\base\named_operator.hpp" />
+    <ClInclude Include="include\3rdparty\NO\include\util\io_helpers.hpp" />
+    <ClInclude Include="include\3rdparty\WHW\Types.h" />
+    <ClInclude Include="include\Vu.h" />
+    <ClInclude Include="include\Vutils.h" />
+    <ClInclude Include="include\Vutils_CUDA.h" />
+    <ClInclude Include="include\Vu_CUDA.h" />
+    <ClInclude Include="src\details\crypt.h" />
+    <ClInclude Include="src\details\defs.h" />
+    <ClInclude Include="src\details\strfmt.h" />
+    <ClInclude Include="src\details\lazy.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3rdparty\BI\src\BigInt.cpp" />
+    <ClCompile Include="3rdparty\HDE\src\hde32.cpp" />
+    <ClCompile Include="3rdparty\HDE\src\hde64.cpp" />
+    <ClCompile Include="3rdparty\MH\src\buffer.cpp" />
+    <ClCompile Include="3rdparty\Others\base64.cpp" />
+    <ClCompile Include="3rdparty\Others\md5.cpp" />
+    <ClCompile Include="3rdparty\Others\sha1.cpp" />
+    <ClCompile Include="3rdparty\Others\sha2_224.cpp" />
+    <ClCompile Include="3rdparty\Others\sha2_256.cpp" />
+    <ClCompile Include="3rdparty\Others\sha2_384.cpp" />
+    <ClCompile Include="3rdparty\Others\sha2_512.cpp" />
+    <ClCompile Include="3rdparty\Others\sha3_impl.cpp" />
+    <ClCompile Include="3rdparty\Others\sha3.cpp" />
+    <ClCompile Include="3rdparty\TE\src\text_encoding_detect.cpp" />
+    <ClCompile Include="3rdparty\TP11\src\Pool.cpp" />
+    <ClCompile Include="3rdparty\TP11\src\Worker.cpp" />
+    <ClCompile Include="3rdparty\UND\src\undname.cpp" />
+    <ClCompile Include="3rdparty\WHW\WinHttpWrapper.cpp" />
+    <ClCompile Include="src\details\asyncsocket.cpp" />
+    <ClCompile Include="src\details\apihookiat.cpp" />
+    <ClCompile Include="src\details\crypt.cpp" />
+    <ClCompile Include="src\details\debouncer.cpp" />
+    <ClCompile Include="src\details\deconsts.cpp" />
+    <ClCompile Include="src\details\picker.cpp" />
+    <ClCompile Include="src\details\mbuffer.cpp" />
+    <ClCompile Include="src\details\crisec.cpp" />
+    <ClCompile Include="src\details\apihookinl.cpp" />
+    <ClCompile Include="src\details\filedir.cpp" />
+    <ClCompile Include="src\details\filemap.cpp" />
+    <ClCompile Include="src\details\filesys.cpp" />
+    <ClCompile Include="src\details\restclient.cpp" />
+    <ClCompile Include="src\details\strfmt.cpp" />
+    <ClCompile Include="src\details\guid.cpp" />
+    <ClCompile Include="src\details\inifile.cpp" />
+    <ClCompile Include="src\details\lazy.cpp" />
+    <ClCompile Include="src\details\library.cpp" />
+    <ClCompile Include="src\details\math.cpp" />
+    <ClCompile Include="src\details\misc.cpp" />
+    <ClCompile Include="src\details\pefile.cpp" />
+    <ClCompile Include="src\details\process.cpp" />
+    <ClCompile Include="src\details\registry.cpp" />
+    <ClCompile Include="src\details\service.cpp" />
+    <ClCompile Include="src\details\socket.cpp" />
+    <ClCompile Include="src\details\stopwatch.cpp" />
+    <ClCompile Include="src\details\string.cpp" />
+    <ClCompile Include="src\details\threadpool.cpp" />
+    <ClCompile Include="src\details\window.cpp" />
+    <ClCompile Include="src\details\wmhook.cpp" />
+    <ClCompile Include="src\details\wmi.cpp" />
+    <ClCompile Include="src\Vutils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\inline\com.inl" />
+    <None Include="include\inline\defs.inl" />
+    <None Include="include\inline\std.inl" />
+    <None Include="include\inline\types.inl" />
+    <None Include="include\inline\spechrs.inl" />
+    <None Include="include\template\easyprint.tpl" />
+    <None Include="include\template\fnhooking.tpl" />
+    <None Include="include\template\handle.tpl" />
+    <None Include="include\template\math.tpl" />
+    <None Include="include\template\misc.tpl" />
+    <None Include="include\template\nameop.tpl" />
+    <None Include="include\template\singleton.tpl" />
+    <None Include="include\template\stlthread.tpl" />
+    <None Include="include\Vu" />
+    <None Include="include\Vutils" />
+    <None Include="include\Vutils_CUDA" />
+    <None Include="include\Vu_CUDA" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

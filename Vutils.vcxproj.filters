@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\details">
+      <UniqueIdentifier>{b7faa85e-455c-4a29-8984-ab3b362fd066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party Files">
+      <UniqueIdentifier>{3afa8de4-dcfe-4e85-acfe-82742a921797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party Files\HDE">
+      <UniqueIdentifier>{3efc726d-f4f2-41a8-a7c7-4fdd16161c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party Files\MH">
+      <UniqueIdentifier>{eb0e3882-c0ce-4589-86c9-944f7725577d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party Files\TP11">
+      <UniqueIdentifier>{7cf3d616-cc47-4dc8-bdd8-52c3fa0b29ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Template Files">
+      <UniqueIdentifier>{6909da66-a8cb-48af-89cb-fdf5e101283a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Inline Files">
+      <UniqueIdentifier>{842f4f8a-4b2a-4ed5-aabf-5d7b6956aaee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party Files\UND">
+      <UniqueIdentifier>{70d999d8-5265-4f36-96dc-d37d5c7ac85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party Files\Others">
+      <UniqueIdentifier>{e5fa43e6-c641-43da-b9ed-9dd215388b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party Files\BI">
+      <UniqueIdentifier>{9ed14588-e9b8-4fd8-bf4d-793d8c84ba85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Third Files">
+      <UniqueIdentifier>{3ab95563-7e75-4398-837b-8b03a6c5ed75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Third Files\BI">
+      <UniqueIdentifier>{49aafee3-5932-43cb-a0b0-060ee761835e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party Files\WHW">
+      <UniqueIdentifier>{f7cc1e70-01ee-4bd9-acf5-fa8ddfe5616f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Third Files\WHW">
+      <UniqueIdentifier>{86898ad2-6ff1-46a0-9826-ebaab5fd5920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Third Files\NO">
+      <UniqueIdentifier>{eefff9c3-29b0-45a8-9e82-0c20dfe7509a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party Files\TE">
+      <UniqueIdentifier>{8ca70d61-cc68-42db-ad04-82ef7fe42ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Third Files\EP">
+      <UniqueIdentifier>{0e80967e-0e61-4762-98d0-e9774dcee22f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Third Files\CH">
+      <UniqueIdentifier>{09804e65-3ba8-4b2d-ac74-8f7e22ab2be0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Vutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Vu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\details\lazy.h">
+      <Filter>Source Files\details</Filter>
+    </ClInclude>
+    <ClInclude Include="src\details\defs.h">
+      <Filter>Source Files\details</Filter>
+    </ClInclude>
+    <ClInclude Include="src\details\strfmt.h">
+      <Filter>Source Files\details</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\HDE\include\hde32.h">
+      <Filter>Third Party Files\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\HDE\include\hde64.h">
+      <Filter>Third Party Files\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\HDE\include\table32.h">
+      <Filter>Third Party Files\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\HDE\include\table64.h">
+      <Filter>Third Party Files\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\MH\include\buffer.h">
+      <Filter>Third Party Files\MH</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\TP11\include\threadpool11\Pool.h">
+      <Filter>Third Party Files\TP11</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\TP11\include\threadpool11\threadpool11.h">
+      <Filter>Third Party Files\TP11</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\TP11\include\threadpool11\Worker.h">
+      <Filter>Third Party Files\TP11</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\UND\include\undname.h">
+      <Filter>Third Party Files\UND</Filter>
+    </ClInclude>
+    <ClInclude Include="src\details\crypt.h">
+      <Filter>Source Files\details</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\Others\base64.h">
+      <Filter>Third Party Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\Others\md5.h">
+      <Filter>Third Party Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\Others\crc_t.h">
+      <Filter>Third Party Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\Others\crc_list.h">
+      <Filter>Third Party Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\Others\sha.h">
+      <Filter>Third Party Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\Others\sha3_impl.h">
+      <Filter>Third Party Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="include\3rdparty\BI\BigInt.hpp">
+      <Filter>Header Files\Third Files\BI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Vu_CUDA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Vutils_CUDA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\WHW\WinHttpWrapper.h">
+      <Filter>Third Party Files\WHW</Filter>
+    </ClInclude>
+    <ClInclude Include="include\3rdparty\WHW\Types.h">
+      <Filter>Header Files\Third Files\WHW</Filter>
+    </ClInclude>
+    <ClInclude Include="include\3rdparty\NO\include\base\named_operator.hpp">
+      <Filter>Header Files\Third Files\NO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\3rdparty\NO\include\util\io_helpers.hpp">
+      <Filter>Header Files\Third Files\NO</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\TE\include\text_encoding_detect.h">
+      <Filter>Third Party Files\TE</Filter>
+    </ClInclude>
+    <ClInclude Include="include\3rdparty\EP\include\easyprint.hpp">
+      <Filter>Header Files\Third Files\EP</Filter>
+    </ClInclude>
+    <ClInclude Include="include\3rdparty\CH\cpp-hooking\common.h">
+      <Filter>Header Files\Third Files\CH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\3rdparty\CH\cpp-hooking\hooking.h">
+      <Filter>Header Files\Third Files\CH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\3rdparty\CH\cpp-hooking\iat_hooking.h">
+      <Filter>Header Files\Third Files\CH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\3rdparty\CH\cpp-hooking\inl_hooking.h">
+      <Filter>Header Files\Third Files\CH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\3rdparty\CH\cpp-hooking\invokable.h">
+      <Filter>Header Files\Third Files\CH</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Vutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\HDE\src\hde32.cpp">
+      <Filter>Third Party Files\HDE</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\HDE\src\hde64.cpp">
+      <Filter>Third Party Files\HDE</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\MH\src\buffer.cpp">
+      <Filter>Third Party Files\MH</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\misc.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\lazy.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\math.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\string.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\process.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\filedir.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\guid.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\library.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\socket.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\filemap.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\registry.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\crisec.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\stopwatch.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\service.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\pefile.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\strfmt.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\filesys.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\inifile.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\window.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\wmhook.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\threadpool.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\TP11\src\Worker.cpp">
+      <Filter>Third Party Files\TP11</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\TP11\src\Pool.cpp">
+      <Filter>Third Party Files\TP11</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\mbuffer.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\asyncsocket.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\apihookiat.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\apihookinl.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\wmi.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\UND\src\undname.cpp">
+      <Filter>Third Party Files\UND</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\picker.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\crypt.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\Others\base64.cpp">
+      <Filter>Third Party Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\Others\md5.cpp">
+      <Filter>Third Party Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\Others\sha1.cpp">
+      <Filter>Third Party Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\Others\sha2_256.cpp">
+      <Filter>Third Party Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\Others\sha2_512.cpp">
+      <Filter>Third Party Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\Others\sha2_384.cpp">
+      <Filter>Third Party Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\Others\sha2_224.cpp">
+      <Filter>Third Party Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\Others\sha3_impl.cpp">
+      <Filter>Third Party Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\Others\sha3.cpp">
+      <Filter>Third Party Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\BI\src\BigInt.cpp">
+      <Filter>Third Party Files\BI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\restclient.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\WHW\WinHttpWrapper.cpp">
+      <Filter>Third Party Files\WHW</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\deconsts.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="src\details\debouncer.cpp">
+      <Filter>Source Files\details</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\TE\src\text_encoding_detect.cpp">
+      <Filter>Third Party Files\TE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\Vu">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="include\Vutils">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="include\template\math.tpl">
+      <Filter>Header Files\Template Files</Filter>
+    </None>
+    <None Include="include\template\singleton.tpl">
+      <Filter>Header Files\Template Files</Filter>
+    </None>
+    <None Include="include\inline\std.inl">
+      <Filter>Header Files\Inline Files</Filter>
+    </None>
+    <None Include="include\inline\types.inl">
+      <Filter>Header Files\Inline Files</Filter>
+    </None>
+    <None Include="include\inline\defs.inl">
+      <Filter>Header Files\Inline Files</Filter>
+    </None>
+    <None Include="include\inline\spechrs.inl">
+      <Filter>Header Files\Inline Files</Filter>
+    </None>
+    <None Include="include\inline\com.inl">
+      <Filter>Header Files\Inline Files</Filter>
+    </None>
+    <None Include="include\template\stlthread.tpl">
+      <Filter>Header Files\Template Files</Filter>
+    </None>
+    <None Include="include\Vu_CUDA">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="include\Vutils_CUDA">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="include\template\misc.tpl">
+      <Filter>Header Files\Template Files</Filter>
+    </None>
+    <None Include="include\template\nameop.tpl">
+      <Filter>Header Files\Template Files</Filter>
+    </None>
+    <None Include="include\template\handle.tpl">
+      <Filter>Header Files\Template Files</Filter>
+    </None>
+    <None Include="include\template\easyprint.tpl">
+      <Filter>Header Files\Template Files</Filter>
+    </None>
+    <None Include="include\template\fnhooking.tpl">
+      <Filter>Header Files\Template Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

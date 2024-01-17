@@ -1,0 +1,1 @@
+Only Using Its Memory Buffer Management. Not Using Its Hooking Technique.

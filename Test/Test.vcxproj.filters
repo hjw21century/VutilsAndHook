@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.Manager.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.Misc.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.Math.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.Socket.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.DF.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.WMHooking.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.INIFile.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.Registry.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.Service.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.FileSystem.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.FileMapping.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.PEFile.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.GUID.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.Singleton.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.InputDialog.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.Process.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.ThreadPool.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.AsyncSocket.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.StopWatch.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.IATHooking.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.INLHooking.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.WMI.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.Picker.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.Crypt.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.Template.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.Window.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.RESTClient.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.AOBScanning.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample.String.h">
+      <Filter>Code Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Code Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
